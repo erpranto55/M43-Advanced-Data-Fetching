@@ -1,7 +1,12 @@
 import Product from "@/components/Product";
 
+// const getProducts = async () => {
+//     const res = await fetch('http://localhost:5000/products', { cache: "force-cache" });
+//     return res.json();
+// }
 const getProducts = async () => {
-    const res = await fetch('http://localhost:5000/products', { cache: "force-cache" });
+    const res = await fetch('http://localhost:5000/products',
+        { next: "revalidate:10" });
     return res.json();
 }
 
