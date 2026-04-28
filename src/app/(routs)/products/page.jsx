@@ -4,6 +4,10 @@ import Product from "@/components/Product";
 //     const res = await fetch('http://localhost:5000/products', { cache: "force-cache" });
 //     return res.json();
 // }
+// const getProducts = async () => {
+//     const res = await fetch('http://localhost:5000/products', { cache: "no-store" });
+//     return res.json();
+// }
 const getProducts = async () => {
     const res = await fetch('http://localhost:5000/products',
         { next: "revalidate:10" });

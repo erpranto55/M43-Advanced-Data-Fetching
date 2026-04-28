@@ -40,5 +40,57 @@
             "stock": 15,
             "description": "Fitness tracking smartwatch with heart rate monitor"
         }
+    ],
+    "books": [
+        {
+            "id": 1,
+            "title": "The Alchemist",
+            "author": "Paulo Coelho",
+            "price": 12.99,
+            "category": "Fiction",
+            "rating": 4.7,
+            "stock": 25,
+            "description": "A philosophical story about following your dreams."
+        },
+        {
+            "id": 2,
+            "title": "Atomic Habits",
+            "author": "James Clear",
+            "price": 18.5,
+            "category": "Self Development",
+            "rating": 4.8,
+            "stock": 30,
+            "description": "A guide to building good habits and breaking bad ones."
+        },
+        {
+            "id": 3,
+            "title": "Rich Dad Poor Dad",
+            "author": "Robert Kiyosaki",
+            "price": 15.0,
+            "category": "Finance",
+            "rating": 4.6,
+            "stock": 20,
+            "description": "Lessons on financial literacy and wealth building."
+        },
+        {
+            "id": 4,
+            "title": "Clean Code",
+            "author": "Robert C. Martin",
+            "price": 28.99,
+            "category": "Programming",
+            "rating": 4.9,
+            "stock": 15,
+            "description": "Best practices for writing clean and maintainable code."
+        },
+        {
+            "id": 5,
+            "title": "Think and Grow Rich",
+            "author": "Napoleon Hill",
+            "price": 14.25,
+            "category": "Motivation",
+            "rating": 4.5,
+            "stock": 18,
+            "description": "Classic book on success and personal achievement."
+        }
     ]
 }
